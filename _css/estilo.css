@@ -99,8 +99,8 @@ body{
 
 #icone{
 	position: relative; /* apartir de onde a imagem esta */
-	top: -30px; /* sobe a imagem*/
-	left: 820px; /* desloca da esquerda para a direita */
+	top: -80px; /* sobe a imagem*/
+	left: 770px; /* desloca da esquerda para a direita */
 }
 
 #cabecalho h1{
