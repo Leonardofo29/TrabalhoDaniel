@@ -140,7 +140,7 @@ p{
 
 .foto-legenda{
 	position: relative; /* considerar o local onde esta e nao o local de pagina*/
-	box-shadow: 5px 5px 2px 0px #999999;
+	box-shadow: 4px 4px 3px 0px #999999;
 }
 
 .foto-legenda img{
@@ -169,33 +169,55 @@ p{
 	opacity: 1; /* ao passar mouse na foto, opacidade vai para 1 */
 }
 
-#tabela{
+.tabela{
 	border: 1px solid #606060;
 	border-spacing: 0px; /* espaçamento da borda ao texto */
 	margin-left: auto;
 	margin-right: auto; 
 }
 
-#tabela td{
+.tabela td{
 	border: 1px solid #606060;
 	padding: 10px;
 	vertical-align: top; /* alinhamento na vertical pelo topo */
 }
 
-#tabela .cd{
-	background-color: #cecece;
+.tabela .cd{
+	background-color: rgb(230,230,230);
+	width: 470px;
+	text-align: justify;
+	color: rgb(0,0,0);
 }
 
-#tabela .ce{
-	color: #fff;
-	background-color: #606060;
+.tabela .ce{
+	color: rgb(0,0,0);
+	background-color: rgb(150,150,150);
 	vertical-align: top;
 	font-weight: bold;
-	text-align: right;
+	text-align: left;
+	width: 207px;
 }
 
 #frame-spec{ /* iframe*/
 	width: 380px;  /* largura */
 	height: 280px; /* altura */
 	border: none;  /* sem borda */
+}
+
+#esp h2{
+	font-size: 12pt;
+	color: rgb(0,0,0);
+	background-color: rgb(220,220,220);
+	padding: 5px 0px 5px 10px;
+	margin: 5px 0px 5px 10px;
+	width: 485px;
+	text-align: center;
+	position: relative;
+	margin-left: 200px;
+}
+
+.title {
+	text-align: center;
+	font-size: 20pt;
+	color: #838B83;
 }
