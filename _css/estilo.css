@@ -221,3 +221,13 @@ p{
 	font-size: 20pt;
 	color: #838B83;
 }
+
+.tema {
+	text-indent: 100px;
+	font-size: 14pt;
+
+}
+
+.negri{
+	font-weight: bold;
+}
