@@ -23,22 +23,133 @@
 				padding-left: 5px;
 				margin: 0px;
 			}
+			#table{
+				border: 1px solid #606060;
+				border-spacing: 0px; /* espaçamento da borda ao texto */
+				margin-left: auto;
+				margin-right: auto; 
+			}
+
+			#table td{
+				border: 1px solid #606060;
+				padding: 10px;
+				vertical-align: top; /* alinhamento na vertical pelo topo */
+			}
+
+			.ce0{
+				color: rgb(0,0,0);
+				background-color: rgb(150,150,150);
+				vertical-align: top;
+				font-weight: bold;
+				text-align: left;
+				width: 207px;
+			}
+
+			.cd0{
+				background-color: rgb(230,230,230);
+					width: 470px;
+					text-align: justify;
+					color: rgb(0,0,0);
+			}
+
+			#br{
+				color: rgb(255,255,255);
+			}
+
+			#or{
+				color: rgb(255,165,0);
+			}
+
+			#re{
+				color: rgb(220,20,60);
+			}
 		</style>
 	</head>
 
 	<body>
 		<article id="topo">
 			<header>
-				<h2>PlayStation 4<br/>(série CUH-1200)</h2>
+				<h2>PlayStation 4<br/>(séries CUH-1000/CUH-1100)</h2>
 			</header>
 		</article>
 
 
-		<article id="">
+		<article id="cc">
 			<header>
 				<br/><br/>
-				<h1></h1>
+				<h1>Compartimento para disco</h1>
 			</header>
+		</article>
+
+		<article id="ia">
+			<header>
+				<br/><br/>
+				<h1>Indicador de alimentação</h1>
+			</header>
+			<br/>
+			<table id="table">
+				<tr><td class="ce0"><span id="br">Branco</span></td><td class="cd0">O sistema está ligado.</td></tr>
+				<tr><td class="ce0"><span id="or">Laranja</span></td><td class="cd0">O sistema está no modo de repouso.</td></tr>
+				<tr><td class="ce0">Desativado</td><td class="cd0">O sistema está desligado.</td></tr>
+				<tr><td class="ce0"><span id="re">Vermelho Piscante</span></td><td class="cd0">Seu sistema PS4™ está superaquecido. Desligue o sistema. Volte a usá-lo mais tarde.</td></tr>
+			</table>
+		</article>
+
+		<article id="ba">
+			<header>
+				<br/><br/>
+				<h1>Botão de alimentação</h1>
+			</header>
+		</article>
+
+		<article id="pusb">
+			<header>
+				<br/><br/>
+				<h1>Porta USB</h1>
+			</header>
+		</article>
+
+		<article id="be">
+			<header>
+				<br/><br/>
+				<h1>Botão de ejeção</h1>
+			</header>
+		</article>
+
+		<article id="cacin">
+			<header>
+				<br/><br/>
+				<h1>Conector AC IN</h1>
+			</header>
+		</article>
+
+		<article id="pdout">
+			<header>
+				<br/><br/>
+				<h1>Porta DIGITAL OUT (OPTICAL)</h1>
+			</header>
+		</article>
+
+		<article id="phdmi">
+			<header>
+				<br/><br/>
+				<h1>Porta HDMI™ OUT</h1>
+			</header>
+		</article>
+
+		<article id="prlan">
+			<header>
+				<br/><br/>
+				<h1>Porta de rede LAN</h1>
+			</header>
+		</article>
+
+		<article id="paux">
+			<header>
+				<br/><br/>
+				<h1>Porta AUX</h1>
+			</header>
+			<p>Conecte sua PlayStation®Camera a esta porta.</p>
 		</article>
 
 	</body>
