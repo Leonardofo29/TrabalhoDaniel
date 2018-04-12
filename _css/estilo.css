@@ -231,3 +231,11 @@ p{
 .negri{
 	font-weight: bold;
 }
+
+.b {
+	color: rgb(0,0,0);
+}
+
+.ita {
+	font-style: italic;
+}
