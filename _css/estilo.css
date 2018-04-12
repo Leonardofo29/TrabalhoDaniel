@@ -106,7 +106,7 @@ body{
 
 #cabecalho h1{
 	font-family: 'FonteTeste', sans-serif;
-	font-size: 30pt; /* tamanho da fonte*/
+	font-size: 27pt; /* tamanho da fonte*/
 	color:#838B83; /* cor da fonte */
 	margin-bottom: 0px; /* espaçamento interno inferior*/
 	padding: 0px; /* espaçamento interno */
@@ -198,9 +198,9 @@ p{
 	width: 207px;
 }
 
-#frame-spec{ /* iframe*/
-	width: 380px;  /* largura */
-	height: 280px; /* altura */
+.frame-spec{ /* iframe*/
+	width: 430px;  /* largura */
+	height: 450px; /* altura */
 	border: none;  /* sem borda */
 }
 
