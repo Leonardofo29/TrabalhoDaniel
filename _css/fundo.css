@@ -1,0 +1,7 @@
+#imagin{
+	background: url("../_imagens/mural.png") no-repeat;
+	height: 506px;
+	width: 900px;
+	background-size: contain;
+	border-top: 1px #1E90FF solid;
+}

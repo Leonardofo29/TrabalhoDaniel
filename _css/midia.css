@@ -1,0 +1,22 @@
+#midia{
+	width: 900px;
+	height: 400px;
+	margin: auto;
+	background: url("../_imagens/tv.png") no-repeat;
+	background-position: center;
+}
+#filme{
+	display: block;
+	position: relative;
+	left: 185px;
+	top: -10px;
+	width: 530px;
+	height: 315px;
+}
+#musica{
+	display: block;
+	position: relative;
+	left: 620px;
+	top: 350px;
+	width: 280px;
+}

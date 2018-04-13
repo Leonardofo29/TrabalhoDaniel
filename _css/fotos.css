@@ -1,0 +1,209 @@
+a:link{
+	color: inherit;
+}
+
+#album{
+	width: 900px; /* largura */
+	height: 560px;
+	list-style: none; /* sem marcações */
+	/*overflow: hidden;*/
+}
+
+#album li{
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 5px;
+	border: solid 2px;
+	background-color: #fff;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+}
+
+#album li:hover{
+	transform: scale(2);
+	transition: all .3s ease-in;
+}
+
+#album li:hover span{
+	opacity: 1;
+}
+
+#album li#foto1{
+	background:url("../_imagens/_mural/1.png");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto1:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+#album li#foto2{
+	background:url("../_imagens/_mural/2.jpg");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto2:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+#album li#foto3{
+	background:url("../_imagens/_mural/3.png");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto3:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+#album li#foto4{
+	background:url("../_imagens/_mural/4.jpg");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto4:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+#album li#foto5{
+	background:url("../_imagens/_mural/5.jpg");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto5:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+#album li#foto6{
+	background:url("../_imagens/_mural/6.jpg");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto6:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+#album li#foto7{
+	background:url("../_imagens/_mural/7.jpg");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto7:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+#album li#foto8{
+	background:url("../_imagens/_mural/8.jpg");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto8:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+#album li#foto9{
+	background:url("../_imagens/_mural/9.jpg");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto9:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+#album li#foto10{
+	background:url("../_imagens/_mural/10.png");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto10:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+#album li#foto11{
+	background:url("../_imagens/_mural/");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto11:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+#album li#foto12{
+	background:url("../_imagens/_mural/12.jpg");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto12:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+#album li#foto13{
+	background:url("../_imagens/_mural/13.jpg");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto13:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+#album li#foto14{
+	background:url("../_imagens/_mural/");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto14:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
+
+#album li#foto15{
+	background:url("../_imagens/_mural/");
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: #fff;
+}
+
+#album li#foto15:hover{
+	background-position: 0px 0px;
+	background-size: 150px 150px;
+}
