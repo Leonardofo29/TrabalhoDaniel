@@ -277,3 +277,35 @@ p{
 #videoo{
 	margin-left: 160px;	
 }
+
+h5{
+	font-size: 12pt;
+	color: rgb(0,0,0);
+	padding: 3px 3px 3px 3px;
+	width: 53px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 2px rgb(0,0,0);
+}
+
+#usuario{
+	background: url(../_imagens/icones-de-contato.png);
+	background-size: contain;
+}
+#endereco{
+	background: url(../_imagens/icones-de-contato.png);
+	background-size: contain;
+}
+#mensagem{
+	background: url(../_imagens/icones-de-contato.png);
+	background-size: contain;
+}
+#pedido{
+	background: url(../_imagens/icones-de-contato.png);
+	background-size: contain;
+}
+#botao-env{
+	width: 150px;
+	height: 150px;
+}

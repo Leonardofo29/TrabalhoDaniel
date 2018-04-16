@@ -24,22 +24,22 @@
             <section>
                 <form id="contato">
                     <fieldset id="usuario"><legend>Identificação do Usuário</legend>
-                        <p><label for="nome">Nome: </label><input type="text" id="nome" placeholder="Digite seu nome"/></p>
-                        <p><label for="senha">Senha:</label><input type="password" id="senha" placeholder="Digite sua senha" /></p>
-                        <p><label for="email">E-mail:</label><input type="email" id="email" placeholder="Digite seu e-mail" /></p>
+                        <p><label for="nome">Nome do personagem: </label><input type="text" id="nome" placeholder="Digite seu nome"/></p>
+                        <p><label for="senha">Senha, guarde a 7 chaves:</label><input type="password" id="senha" placeholder="Digite sua senha" /></p>
+                        <p><label for="email">E-mail para receber suas missões:</label><input type="email" id="email" placeholder="Digite seu e-mail" /></p>
 
                         <fieldset id="sexo"><legend>Sexo</legend>
-                            <input type="radio" id="masculino" name="sexo">Masculino</input>
-                            <input type="radio" id="feminino" name="sexo">Feminino</input>
+                            <input type="radio" id="masculino" name="sexo">Guerreiro</input>
+                            <input type="radio" id="feminino" name="sexo">Guerreira</input>
                         </fieldset>
-                        <p><label for="data">Data de Nascimento:</label><input type="date" id="data"/></p>
+                        <p><label for="data">Data de nascimento do jovem padawan:</label><input type="date" id="data"/></p>
                     </fieldset>
 
                     <fieldset id="endereco">
                         <legend>Endereço do Usuário</legend>
-                        <p><label for="logradouro">Logradouro:</label><input type="text" id="logradouro" placeholder="Digite seu endereço"/></p>
-                        <p><label for="numero">Número:</label><input type="number" id="numero" placeholder="Digite o número"/></p>
-                        <p><label for="estado">Estado:</label>
+                        <p><label for="logradouro">Logradouro da Batcaverna:</label><input type="text" id="logradouro" placeholder="Digite seu endereço"/></p>
+                        <p><label for="numero">Número da Batcaverna:</label><input type="number" id="numero" placeholder="Digite o número"/></p>
+                        <p><label for="estado">BatEstado:</label>
                         <select id="estado">
                             <option>São Paulo</option>
                             <option>Rio de Janeiro</option>
@@ -47,7 +47,7 @@
                             <option>Bahia</option>
                             <option>Outro</option>
                         </select></p>
-                        <p><label for="cidade">Cidade:</label><input type="text" id="cidade" list="lista"/>
+                        <p><label for="cidade">Cidade onde se encontra a Batcaverna:</label><input type="text" id="cidade" list="lista"/>
                         <datalist id="lista">
                             <option>Franca</option>
                             <option>Franco da Rocha</option>
@@ -58,21 +58,36 @@
 
                     <fieldset id="mensagem">
                     <legend>Mensagem do Usuário</legend>
-                        <p><label for="urgencia">Grau de Urgência: </label>Mínimo <input type="range" min="0" max="10" id="urgencia"/> Máximo</p>
+                        <p><label for="urgencia">Grau de Urgência da Missão: </label>Tirar gatinho da árvore (Min)<input type="range" min="0" max="100" id="urgencia"/>(Max) Assalto ao banco central</p>
                         <p><label for="men">Mensagem: </label></p>
-						<p><textarea id="men" rows="10" cols="50" placeholder="Deixa aqui sua mensagem"></textarea></p>
+						<p><textarea id="men" rows="10" cols="50" placeholder="Deixa aqui sua super mensagem"></textarea></p>
                     </fieldset>
 
                     <fieldset id="pedido">
-                    <legend>Quero um Google Glass</legend>
-                        <p><input type="checkbox" id="adquirir"/><label for="adquirir">Gostaria de adquirir um Google Glass quando disponível</label></p>
-                        <p><label for="cor">Cor:</label><input type="color" id="cor" value="#0000ff"/></p>
+                    <legend>Adquirir meu PlayStation 4</legend>
+                        <p><input type="checkbox" id="adquirir"/><label for="adquirir">Gostaria de adquirir seu PlayStation 4?</label></p>
+                        <p><input type="checkbox" id="Sim"/><label for="Sim">Sim</label></p>
+                        <p><input type="checkbox" id="Não"/><label for="Não">Não</label></p>
+                        <p><label for="cor">Cor:</label>
+                        <select id="cor">
+                        	<option>Preto</option>
+                        	<option>Cinza</option>
+                        	<option>Vermelho</option>
+                        	<option>Azul</option>
+                        	<option>Dourado</option>
+                        </p>
+                        </select>
+
                         <p><label for="qtde">Quantidade: </label><input type="number" id="qtde"/></p>
                         <p><label for="preco">Preço Total: R$</label><input type="number" id="preco"/></p>
                     </fieldset>
 
-
-                    <input type="image" id="botao" src="_imagens/botao-enviar.png"/>
+                    <fieldset id="botao-enviar">
+                    <div align="center">
+                    <input type="image" id="botao-env" src="_imagens/email-send-icon.png"/>
+                    </div>
+                    </fieldset>	
+                   
                 </form>
             </section>
             <footer id="rodape">
